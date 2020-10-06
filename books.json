@@ -2,7 +2,7 @@
     {
         "title": "Stand on Zanzibar",
         "author": "John Brunner",
-        "img": "/images/standonzanzibar.png",
+        "img": "images/standonzanzibar.png",
         "rating": 0,
         "description": "",
         "status": "Reading"
@@ -10,7 +10,7 @@
     {
         "title": "The Habit of Rivers",
         "author": "Ted Leeson",
-        "img": "/images/habitofrivers.jpg",
+        "img": "images/habitofrivers.jpg",
         "rating": 0,
         "description": "",
         "status": "Reading"
@@ -18,7 +18,7 @@
     {
         "title": "Dune",
         "author": "Frank Herbert",
-        "img": "/images/dune.jpg",
+        "img": "images/dune.jpg",
         "rating": 0,
         "description": "Apparently its amazing. So I will read soon.",
         "status": "Read to read"
@@ -26,7 +26,7 @@
     {
         "title": "Deep Work",
         "author": "Cal Newport",
-        "img": "/images/deepwork.jpg",
+        "img": "images/deepwork.jpg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -34,7 +34,7 @@
     {
         "title": "Educated",
         "author": "Tara Westover",
-        "img": "/images/educated.jpeg",
+        "img": "images/educated.jpeg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -42,7 +42,7 @@
     {
         "title": "killing rage",
         "author": "bell hooks",
-        "img": "/images/killingrage.jpg",
+        "img": "images/killingrage.jpg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -50,7 +50,7 @@
     {
         "title": "The New Jim Crow",
         "author": "Michelle Alexander",
-        "img": "/images/newjimcrow.jpg",
+        "img": "images/newjimcrow.jpg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -58,7 +58,7 @@
     {
         "title": "Sister Outsider",
         "author": "Audre Lorde",
-        "img": "/images/sisteroutsider.jpg",
+        "img": "images/sisteroutsider.jpg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -66,7 +66,7 @@
     {
         "title": "Mindhunter",
         "author": "John Douglas & Mark Olshaker",
-        "img": "/images/mindhunter.jpg",
+        "img": "images/mindhunter.jpg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -74,7 +74,7 @@
     {
         "title": "Two Hours",
         "author": "Ed Caesar",
-        "img": "/images/twohours.jpg",
+        "img": "images/twohours.jpg",
         "rating": 0,
         "description": "",
         "status": "Queued"
@@ -82,7 +82,7 @@
     {
         "title": "The Orphan Masters Son",
         "author": "Adam Johnson",
-        "img": "/images/orphanmastersson.jpg",
+        "img": "images/orphanmastersson.jpg",
         "rating": 0,
         "description": "",
         "status": "Interested"
@@ -90,7 +90,7 @@
     {
         "title": "Medium Raw",
         "author": "Anthony Bourdain",
-        "img": "/images/mediumraw.jpg",
+        "img": "images/mediumraw.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -98,7 +98,7 @@
     {
         "title": "A River in Darkness",
         "author": "Masaji Ishikawa",
-        "img": "/images/ariverindarkness.jpg",
+        "img": "images/ariverindarkness.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -106,7 +106,7 @@
     {
         "title": "Can't Hurt Me: Master your mind",
         "author": "David Goggins",
-        "img": "/images/canthurtme.jpeg",
+        "img": "images/canthurtme.jpeg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -114,7 +114,7 @@
     {
         "title": "New Waves: A Novel",
         "author": "Kevin Nguyen",
-        "img": "/images/newwaves.jpg",
+        "img": "images/newwaves.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -122,7 +122,7 @@
     {
         "title": "White Fragility",
         "author": "Robin Diangelo",
-        "img": "/images/whitefragility.jpg",
+        "img": "images/whitefragility.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -130,7 +130,7 @@
     {
         "title": "Why We Sleep",
         "author": "Matthew Walker, PhD",
-        "img": "/images/whywesleep.webp",
+        "img": "images/whywesleep.webp",
         "rating": 0,
         "description": "",
         "status": "Interested"
@@ -138,7 +138,7 @@
     {
         "title": "Kitchen Confidential",
         "author": "Anthony Bourdain",
-        "img": "/images/kitchenconfidential.jpg",
+        "img": "images/kitchenconfidential.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -146,7 +146,7 @@
     {
         "title": "The Burning Edge: Travels through Belarus",
         "author": "Arthur Chichester",
-        "img": "/images/burningedge.jpg",
+        "img": "images/burningedge.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -154,7 +154,7 @@
     {
         "title": "Ruined by Design",
         "author": "Mike Monteiro",
-        "img": "/images/ruinedbydesign.jpg",
+        "img": "images/ruinedbydesign.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -162,7 +162,7 @@
     {
         "title": "How Not To Die",
         "author": "Dr. Michael Gregor",
-        "img": "/images/hownottodie.jpg",
+        "img": "images/hownottodie.jpg",
         "rating": 0,
         "description": "",
         "status": "Finished"
@@ -170,7 +170,7 @@
     {
         "title": "Devin in the White City",
         "author": "Erik Larson",
-        "img": "/images/devilinthewhitecity.jpg",
+        "img": "images/devilinthewhitecity.jpg",
         "rating": 0,
         "description": "",
         "status": "Interested"
@@ -178,7 +178,7 @@
     {
         "title": "VALIS",
         "author": "Philip K. Dick",
-        "img": "/images/valis.jpg",
+        "img": "images/valis.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -186,7 +186,7 @@
     {
         "title": "Solaris",
         "author": "Stanislaw Lem",
-        "img": "/images/solaris.jpg",
+        "img": "images/solaris.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -194,7 +194,7 @@
     {
         "title": "The Art of Loving",
         "author": "Erich Fromm",
-        "img": "/images/artofloving.jpeg",
+        "img": "images/artofloving.jpeg",
         "rating": 0,
         "description": "",
         "status": "Finished"
@@ -202,7 +202,7 @@
     {
         "title": "The Soul of a New Machine",
         "author": "Tracy Kidder",
-        "img": "/images/soulofanewmachine.jpg",
+        "img": "images/soulofanewmachine.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -210,7 +210,7 @@
     {
         "title": "The Jungle",
         "author": "Upton Cinclair",
-        "img": "/images/thejungle.jpg",
+        "img": "images/thejungle.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -218,7 +218,7 @@
     {
         "title": "Salt",
         "author": "Mark Kurlansky, PhD",
-        "img": "/images/salt.jpg",
+        "img": "images/salt.jpg",
         "rating": 0,
         "description": "",
         "status": "Interested"
@@ -226,7 +226,7 @@
     {
         "title": "Counting Backwards",
         "author": "Henry Jay Przybylo, M D",
-        "img": "/images/countingbackwards.jpg",
+        "img": "images/countingbackwards.jpg",
         "rating": 0,
         "description": "",
         "status": "Interested"
@@ -234,7 +234,7 @@
     {
         "title": "A River Runs Through It",
         "author": "Norman Maclean",
-        "img": "/images/ariverrunsthroughit.jpg",
+        "img": "images/ariverrunsthroughit.jpg",
         "rating": 0,
         "description": "",
         "status": "Interested"
@@ -242,7 +242,7 @@
     {
         "title": "Out of the Silent Planet",
         "author": "C.S. Lewis",
-        "img": "/images/outofthesilentplanet.jpg",
+        "img": "images/outofthesilentplanet.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -250,7 +250,7 @@
     {
         "title": "The Fall",
         "author": "Albert Camus",
-        "img": "/images/thefall.jpg",
+        "img": "images/thefall.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -258,7 +258,7 @@
     {
         "title": "The Handmaids Tale",
         "author": "Margaret Atwood",
-        "img": "/images/handmaidstale.jpeg",
+        "img": "images/handmaidstale.jpeg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -266,7 +266,7 @@
     {
         "title": "The Testiments",
         "author": "Margaret Atwood",
-        "img": "/images/thetestaments.jpg",
+        "img": "images/thetestaments.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -274,7 +274,7 @@
     {
         "title": "Hillbilly Elegy",
         "author": "J.D. Vance",
-        "img": "/images/hillbillyelegy.jpg",
+        "img": "images/hillbillyelegy.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -282,7 +282,7 @@
     {
         "title": "Search Inside Yourself",
         "author": "Chade-meng Tan",
-        "img": "/images/searchinsideyourself.jpg",
+        "img": "images/searchinsideyourself.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -290,7 +290,7 @@
     {
         "title": "Fish!",
         "author": "Lundin, Paul, & Christensen",
-        "img": "/images/fish.jpeg",
+        "img": "images/fish.jpeg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -298,7 +298,7 @@
     {
         "title": "The Fabric of the Cosmos",
         "author": "Brian Greene",
-        "img": "/images/fabricofthecosmos.jpg",
+        "img": "images/fabricofthecosmos.jpg",
         "rating": 3,
         "description": "At some point I just realized I didn't care enough to finish this book.",
         "status": "Stopped"
@@ -306,7 +306,7 @@
     {
         "title": "Want Not",
         "author": "Jonathan Miles",
-        "img": "/images/wantnot.jpg",
+        "img": "images/wantnot.jpg",
         "rating": 3,
         "description": "I bought this on a whip at an airport and probably got halfway through it during my flights that day and never picked it up again. I mean fun premise, just, probably will not go back to it.",
         "status": "Stopped"
@@ -314,7 +314,7 @@
     {
         "title": "The Dice Man",
         "author": "George Cockcroft",
-        "img": "/images/diceman.jpg",
+        "img": "images/diceman.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -322,7 +322,7 @@
     {
         "title": "A Farewell to Arms",
         "author": "Ernest Hemingway",
-        "img": "/images/afarewelltoarms.jpg",
+        "img": "images/afarewelltoarms.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -330,7 +330,7 @@
     {
         "title": "The Old Man and the Sea",
         "author": "Ernest Hemingway",
-        "img": "/images/oldmanandthesea.jpg",
+        "img": "images/oldmanandthesea.jpg",
         "rating": 4,
         "description": "",
         "status": "Finished"
@@ -338,7 +338,7 @@
     {
         "title": "Monkey Mind",
         "author": "Daniel Smith",
-        "img": "/images/monkeymind.jpg",
+        "img": "images/monkeymind.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -346,7 +346,7 @@
     {
         "title": "The Power of Habit",
         "author": "Charles Duhigg",
-        "img": "/images/powerofhabit.jpg",
+        "img": "images/powerofhabit.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -354,7 +354,7 @@
     {
         "title": "Super Freakonomics",
         "author": "Steven Levitt & Stephen Dubner",
-        "img": "/images/superfreakonomics.jpg",
+        "img": "images/superfreakonomics.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -362,7 +362,7 @@
     {
         "title": "Freakonomics",
         "author": "Steven Levitt & Stephen Dubner",
-        "img": "/images/freakonomics.jpg",
+        "img": "images/freakonomics.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -370,7 +370,7 @@
     {
         "title": "The Girl Who Kicked the Hornet's Nest",
         "author": "Stieg Larsson",
-        "img": "/images/girlwhokickedthehornetsnest.jpg",
+        "img": "images/girlwhokickedthehornetsnest.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -378,7 +378,7 @@
     {
         "title": "The Girl Who Played with Fire",
         "author": "Stieg Larsson",
-        "img": "/images/girlwhoplayedwithfire.png",
+        "img": "images/girlwhoplayedwithfire.png",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -386,7 +386,7 @@
     {
         "title": "The Girl with the Dragon Tattoo",
         "author": "Stieg Larsson",
-        "img": "/images/girlwiththedragontattoo.jpg",
+        "img": "images/girlwiththedragontattoo.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -394,7 +394,7 @@
     {
         "title": "1984",
         "author": "George Orwell",
-        "img": "/images/1984.jpg",
+        "img": "images/1984.jpg",
         "rating": 5,
         "description": "",
         "status": "Finished"
@@ -402,7 +402,7 @@
     {
         "title": "The Power of Now",
         "author": "Eckhart Tolle",
-        "img": "/images/powerofnow.jpg",
+        "img": "images/powerofnow.jpg",
         "rating": 5,
         "description": "I was recommended this book by my highschool econ teacher. I went to catholic school, so a lot of lessons and such were from religious authors. Aside from the god stuff, this book was my first dip into mindfulness. It took me years before I realized it was what I had learned, but it was a powerful book at the time.",
         "status": "Finished"
