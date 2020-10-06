@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="bookshelf">
+        <div class="content">
+            <h1>Bookshelf</h1>
+            <a href="https://github.com/immannino/blog-bookshelf-template" target="_blank">View the source</a>
+            <div class="books" v-if="books">
+                <div :class="`book ${getStatus(book.status)}`" v-for="(book, index) of books" :key="index" >
+                    <img class="cover" :src="book.img" :alt="book.title" />
+                    <div class="details">
+                        <div class="title">{{book.title}}</div>
+                        <div class="author">{{book.author}}</div>
+                        <div class="rating">{{getStars(book.rating)}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const app = new Vue({
+            el: '#bookshelf',
+            data: {
+                books: null
+            },
+            async mounted() {
+                // load books
+                const response = await fetch("/books.json");
+                this.books = await response.json();
+            },
+            methods: {
+                getStatus(status) { return status.split(' ').join('').toLowerCase(); },
+                getStars(rating) {
+                    switch (rating) {
+                        case 1:
+                            return `★☆☆☆☆`;
+                        case 2:
+                            return `★★☆☆☆`;
+                        case 3:
+                            return `★★★☆☆`;
+                        case 4:
+                            return `★★★★☆`;
+                        case 5:
+                            return `★★★★★`;
+                        default:
+                            return `☆☆☆☆☆`;
+                    }
+                }
+            }
+        });
+    </script>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        .content {
+            margin-bottom: 2rem;
+        }
+
+        .books {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-evenly;
+        }
+
+        .book {
+            width: 115px;
+            padding: 0.5rem;
+        }
+
+        .cover {
+            width: 115px;
+            object-fit: cover;
+            transition: all 0.2s ease;
+        }
+
+        .book:hover .cover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px #00000010;
+        }
+
+        .title { font-size: 12px; }
+        .author { font-size: 10px; }
+
+        .interested .cover,
+        .queued .cover,
+        .readytostart .cover,
+        .gaveup .cover {
+            filter: grayscale(100%);
+        }
+
+        .reading::after {
+            content: 'Reading';
+            color: white;
+            background-color: blue;
+            padding: 0.15rem;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+
+        .readytostart::after {
+            content: 'Next';
+            color: white;
+            filter: grayscale(0%)!important;
+            background-color: springgreen;
+            padding: 0.15rem;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+
+        .queued::after {
+            content: 'Queued';
+            color: black;
+            filter: grayscale(0%)!important;
+            background-color: yellow;
+            padding: 0.15rem;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+
+        .interested::after {
+            content: 'Interested';
+            color: white;
+            filter: grayscale(0%)!important;
+            background-color: purple;
+            padding: 0.15rem;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
