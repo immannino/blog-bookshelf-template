@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookshelf</title>
-    <link rel="stylesheet" href="/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
@@ -32,7 +31,7 @@
             },
             async mounted() {
                 // load books
-                const response = await fetch("/books.json");
+                const response = await fetch("books.json");
                 this.books = await response.json();
             },
             methods: {
